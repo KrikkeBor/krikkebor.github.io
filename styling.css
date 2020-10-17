@@ -32,3 +32,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+@media (max-width: 600px) {
+    #sidebar {
+        display: none;
+    }
+}
