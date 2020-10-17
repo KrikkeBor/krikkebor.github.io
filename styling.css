@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 200px auto 200px;
+  }
+
+ .grid-item {
+     background-color: white;
+     margin: 5px;
+ }
+
+ .grid-container2 {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 300px 300px auto;
+    padding: 5px;
+  }
+
+ .grid-item2 {
+     background-color: white;
+ }
+ 
+ #header {
+     background-color: yellow;
+ }
+
+ #footer {
+    background-color: yellow;
+}
